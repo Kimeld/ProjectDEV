@@ -1,0 +1,31 @@
+canvas {
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.block {
+    width: 20%;
+    background-color: black;
+}
+
+.vert {
+    background-color: green;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.tech {
+
+    z-index: 11;
+    position: fixed;
+
+}
+
+.scroll {
+    width: 50px;
+    height: 3000px;
+}

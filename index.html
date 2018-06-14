@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trapologue</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/stylesPlatine.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="platine">
+            <div class="platine_fond1">
+                <div class="platine_fond2">
+                </div>
+            </div>
+        </div>
+        <div class="jog_left">
+            <div class="jog_left1"></div>
+            <div class="jog_left2"></div>
+            <div class="jog_left3"></div>
+            <div class="jog_left4"></div>
+        </div>
+        <div class="jog_right">
+            <div class="jog_right1"></div>
+            <div class="jog_right2"></div>
+            <div class="jog_right3"></div>
+            <div class="jog_right4"></div>
+        </div>
+        <button class="button_play_left">
+        <img class="img_play_left" src="images/play-button.svg">
+    </button>
+
+        <button class="button_pause_left">
+        <img class="img_pause_left" src="images/pause-button.svg">
+    </button>
+
+        <button class="button_play_right">
+        <img class="img_play_right" src="images/play-button.svg">
+    </button>
+
+        <button class="button_pause_right">
+        <img class="img_pause_right" src="images/pause-button.svg">
+    </button>
+        <!--<div class="pad_left">
+            <div class="pad_left1"></div>
+            <div class="pad_left2"></div>
+            <div class="pad_left3"></div>
+            <div class="pad_left4"></div>
+        </div>
+        <div class="pad_right">
+            <div class="pad_right1"></div>
+            <div class="pad_right2"></div>
+            <div class="pad_right3"></div>
+            <div class="pad_right4"></div>
+        </div>-->
+        <div class="pad_containerL">
+            <div class="pads pad_left key_90" data-sound="clap">
+                <div class="title"> Z </div>
+            </div>
+            <div class="pads pad_left key_69" data-sound="snare">
+                <div class="title"> E </div>
+            </div>
+            <div class="pads pad_left key_83" data-sound="kick">
+                <div class="title"> S </div>
+            </div>
+            <div class="pads pad_left key_68" data-sound="hi-hat">
+                <div class="title"> D </div>
+            </div>
+        </div>
+        <div class="pad_containerR">
+            <div class="pads pad_right key_73" data-sound="clap">
+                <div class="title"> I </div>
+            </div>
+            <div class="pads pad_right key_79" data-sound="snare">
+                <div class="title"> O </div>
+            </div>
+            <div class="pads pad_right key_75" data-sound="kick">
+                <div class="title"> K </div>
+            </div>
+            <div class="pads pad_right key_76" data-sound="hi-hat">
+                <div class="title"> L </div>
+            </div>
+        </div>
+
+        <div class="tempo_left">
+            <div class="tempo_left_button"></div>
+            <div class="tempo_left1"></div>
+            <div class="tempo_left2"></div>
+            <div class="tempo_left3"></div>
+            <div class="tempo_left4"></div>
+            <div class="tempo_left5"></div>
+            <div class="tempo_left6"></div>
+            <div class="tempo_left7"></div>
+            <div class="tempo_left8"></div>
+            <div class="tempo_left9"></div>
+            <div class="tempo_left10"></div>
+            <div class="tempo_left11"></div>
+            <div class="tempo_left12"></div>
+        </div>
+        <div class="tempo_right">
+            <div class="tempo_right_button"></div>
+            <div class="tempo_right1"></div>
+            <div class="tempo_right2"></div>
+            <div class="tempo_right3"></div>
+            <div class="tempo_right4"></div>
+            <div class="tempo_right5"></div>
+            <div class="tempo_right6"></div>
+            <div class="tempo_right7"></div>
+            <div class="tempo_right8"></div>
+            <div class="tempo_right9"></div>
+            <div class="tempo_right10"></div>
+            <div class="tempo_right11"></div>
+            <div class="tempo_right12"></div>
+        </div>
+        <div class="sound truble1">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Truble</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="sound truble2">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Truble</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="sound medium1">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Medium</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="sound medium2">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Medium</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="sound bass1">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Bass</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="sound bass2">
+            <div class="js-clickable"></div>
+            <div class="fill-bar"><span>Bass</span></div>
+            <div class="sound-bar"></div>
+        </div>
+        <div class="cross_feder">
+            <div class="cross_feder_button"></div>
+            <div class="cross_feder1"></div>
+            <div class="cross_feder2"></div>
+            <div class="cross_feder3"></div>
+            <div class="cross_feder4"></div>
+            <div class="cross_feder5"></div>
+            <div class="cross_feder6"></div>
+            <div class="cross_feder7"></div>
+            <div class="cross_feder8"></div>
+            <div class="cross_feder9"></div>
+            <div class="cross_feder10"></div>
+            <div class="cross_feder11"></div>
+            <div class="cross_feder12"></div>
+        </div>
+        <div class="volume_a">
+            <div class="volume_a_button"></div>
+            <div class="volume_a1"></div>
+            <div class="volume_a2"></div>
+            <div class="volume_a3"></div>
+            <div class="volume_a4"></div>
+            <div class="volume_a5"></div>
+            <div class="volume_a6"></div>
+            <div class="volume_a7"></div>
+            <div class="volume_a8"></div>
+            <div class="volume_a9"></div>
+            <div class="volume_a10"></div>
+            <div class="volume_a11"></div>
+            <div class="volume_a12"></div>
+        </div>
+        <div class="volume_b">
+            <div class="volume_b_button"></div>
+            <div class="volume_b1"></div>
+            <div class="volume_b2"></div>
+            <div class="volume_b3"></div>
+            <div class="volume_b4"></div>
+            <div class="volume_b5"></div>
+            <div class="volume_b6"></div>
+            <div class="volume_b7"></div>
+            <div class="volume_b8"></div>
+            <div class="volume_b9"></div>
+            <div class="volume_b10"></div>
+            <div class="volume_b11"></div>
+            <div class="volume_b12"></div>
+        </div>
+
+        <div class="cross_fader_horizontal">
+            <div class="cross_fader_horizontal_button"></div>
+            <div class="cross_fader_horizontal_1"></div>
+            <div class="cross_fader_horizontal_2"></div>
+            <div class="cross_fader_horizontal_3"></div>
+            <div class="cross_fader_horizontal_4"></div>
+            <div class="cross_fader_horizontal_5"></div>
+            <div class="cross_fader_horizontal_6"></div>
+            <div class="cross_fader_horizontal_7"></div>
+            <div class="cross_fader_horizontal_8"></div>
+            <div class="cross_fader_horizontal_9"></div>
+            <div class="cross_fader_horizontal_10"></div>
+            <div class="cross_fader_horizontal_11"></div>
+            <div class="cross_fader_horizontal_12"></div>
+        </div>
+
+    </div>
+    <div class="tech">
+        <audio class="son" src="musiques/Alors%20on%20dance.mp3"></audio>
+        <audio class="son1" src="musiques/Malaa%20-%20Notorious.mp3" controls></audio>
+
+
+        <h2>speed sound</h2>
+        <button class="speedUp">+</button>
+        <button class="speedDown">-</button>
+
+        <h2>Web Audio Api Equalizer</h2>
+        <div class="eq">
+            <div class="controls">
+                <label>Low Gain</label>
+                <input type="range" value="100" step="1" min="0" max="200" oninput="changeGain(this.value, 'lowGain');">
+            </div>
+            <div class="controls">
+                <label>Mid Gain</label>
+                <input type="range" value="100" step="1" min="0" max="200" oninput="changeGain(this.value, 'midGain');">
+            </div>
+            <div class="controls">
+                <label>High Gain</label>
+                <input type="range" value="100" step="1" min="0" max="200" oninput="changeGain(this.value, 'highGain');">
+            </div>
+        </div>
+    </div>
+
+    <audio class="clap" src="sounds/clap2.mp3"></audio>
+    <audio class="hi-hat" src="sounds/hi-hat2.mp3"></audio>
+    <audio class="kick" src="sounds/kick3.mp3"></audio>
+    <audio class="open-hat" src="sounds/open-hat2.mp3"></audio>
+    <audio class="snare" src="sounds/snare2.mp3"></audio>
+    <audio class="vox" src="sounds/vox2.mp3"></audio>
+
+</body>
+<script src="scripts/three.min.js"></script>
+<script src="scripts/webgl.js"></script>
+<script src="scripts/drag.js"></script>
+<script src="scripts/crossfader.js"></script>
+<script src="scripts/main.js"></script>
+
+<script src="scripts/button.js"></script>
+<script src="music-tempo.min.js"></script>
+<script src="scripts/pad.js"></script>
+
+</html>
